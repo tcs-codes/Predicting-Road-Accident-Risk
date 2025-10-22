@@ -7,8 +7,8 @@ It demonstrates end-to-end data science workflow — from data cleaning and feat
 Competition link:
 https://www.kaggle.com/competitions/playground-series-s5e10
 
-**Approach
-**Data Exploration:
+**Approach**
+Data Exploration:
 Analyzed variable distributions, correlations, and outliers.
 
 Feature Engineering:
