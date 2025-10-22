@@ -8,19 +8,19 @@ Competition link:
 https://www.kaggle.com/competitions/playground-series-s5e10
 
 **Approach**
-Data Exploration:
-Analyzed variable distributions, correlations, and outliers.
+  Data Exploration:
+    Analyzed variable distributions, correlations, and outliers.
+  
+  **Feature Engineering:**
+    Extracted time-based features (hour, weekday, month).
+    Encoded categorical variables (weather, road type, region).
+    Added interaction features and statistical aggregates.
+  
+  **Modeling:**
+    Trained ensemble models such as LightGBM, CatBoost, and XGBoost.
+    Performed hyperparameter tuning with Optuna.
+    Combined models using weighted averaging.
 
-Feature Engineering:
-Extracted time-based features (hour, weekday, month).
-Encoded categorical variables (weather, road type, region).
-Added interaction features and statistical aggregates.
-
-Modeling:
-Trained ensemble models such as LightGBM, CatBoost, and XGBoost.
-Performed hyperparameter tuning with Optuna.
-Combined models using weighted averaging.
-
-Evaluation:
-Used Stratified K-Fold cross-validation to ensure balanced splits.
-Tracked AUC / F1-score (depending on Kaggle’s metric).
+**Evaluation:**
+  Used Stratified K-Fold cross-validation to ensure balanced splits.
+  Tracked AUC / F1-score (depending on Kaggle’s metric).
